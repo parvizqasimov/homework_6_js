@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="wrapper" >
+
+        <h1 class="header">Registr with Us</h1>
+
+        <form action="/" id="form">
+                <p class="Username">Username</p>
+                <input type="text" placeholder="Enter username" name="username" class="usernameInput">
+                    <div id="username-error" class="errors"></div>
+
+                <p class="email_Title">Email</p>
+                <input type="email" placeholder="Enter Email" name="email" class="emailInput">
+                    <div id="email-error" class="errors"> </div>
+
+                <p class="password_Title">Password</p>
+                <input type="password" placeholder="Enter password" name="password" class="passwordInput">
+                    <div  id="password-error" class="errors"> </div>
+
+                <p class="confim+Passwor_Title">Confim Password</p>
+                <input type="password" placeholder="Enter password again" name="confimpassword" class="confirmPasswordInput">
+                     <div  id="confirm-password-error" class="errors"> </div>
+
+                <button type="submit" class="submit_button">Submit</button>
+                
+            
+        </form>   
+        <div id="submit-ui"></div> 
+
+    </div> 
+</div> 
+<script src="./script.js"></script>    
+</body>
+</html>
+
+
+

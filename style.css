@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.wrapper{
+    margin: 60px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+#form {
+display: flex;
+flex-direction: column;
+/* gap: 5px; */
+}
+
+p {
+    margin:  1px;
+    color: rgba(0, 0, 0, 0.5); 
+    opacity: 1; 
+}
+.placeholder{
+    color: rgba(0, 0, 0, 0.5); 
+    opacity: 0.2; 
+}
+input {
+    border: 0.5px solid red;
+    width: auto;
+    height: 25px;
+    
+  }
+.header{
+   text-align: center;
+}
+.submit_button{
+    background-color: rgb(18, 185, 232);
+    height: 25px;
+    border: none;
+}
+.errors {
+   
+    margin: 5px;
+    font-size: 15px;
+    color: brown;
+    opacity: 0.5; 
+    
+}
